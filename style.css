@@ -1,0 +1,95 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background: #FFF6D9;
+}
+
+/* DIVS */
+
+#contents {
+  width: 80%;
+  height: 550px;
+  margin: 0% 10% 40px 10%;
+  border: 1px #E8D9AC solid;
+  background: #E8D9AC;
+  border-radius: 10px;
+}
+
+#about {
+  display: none;
+}
+
+#concerts {
+  display: none;
+}
+
+#discography {
+  display: none;
+}
+
+/* CLASSES */
+
+.active {
+  display: inline-block;
+}
+
+.not_active {
+  display: none;
+}
+
+.tab_content {
+  width: 90%;
+  margin: 5%;
+/*  border: 1px black solid;*/
+}
+
+/* MISC - GENERAL */
+
+nav  {
+  width: 80%;
+  margin: 5% 10% 0 10%;
+}
+
+nav ul li {
+  display: inline-block;
+  background: #705B35;
+  padding: 20px 15px 15px 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.active_tab {
+  background: #E8D9AC;
+}
+
+nav ul li:hover {
+  background: #570026;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #261F12;
+  font-family: sans-serif;
+}
+
+ul {
+  margin: 0;
+}
+
+h1 {
+  font-family: serif;
+  padding: 0 0 15px 0;
+  color: #570026;
+}
+
+p {
+  font-family: sans-serif;
+  padding: 10px 0;
+}
+
+li {
+  list-style: none;
+}
+
